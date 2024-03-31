@@ -19,12 +19,6 @@ output "instrumentation_key" {
   sensitive   = true
 }
 
-output "connection_string" {
-  description = "Connection string for the Application Insights instance"
-  value       = azurerm_application_insights.this.connection_string
-  sensitive   = true
-}
-
 output "app_id" {
   value       = azurerm_application_insights.this.app_id
   description = "value of the app id"
