@@ -1,4 +1,4 @@
-variable "rg_name" {
+variable "name" {
   type        = string
   description = "Name of resoruce group"
 }
